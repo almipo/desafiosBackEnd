@@ -1,1 +1,35 @@
-[]
+[
+{
+"title": "mesa",
+"description": "mesa rectangular",
+"thumnail": "sin imagen",
+"precio":100,
+"code": 15,
+"stock":50
+},
+{
+    "title": "silla",
+"description": "con almohadon",
+"thumnail":  "sin imagen",
+"precio":70,
+"code": 11,
+"stock": 20
+},
+{
+    "title": "mesa",
+"description": "mesa ratona",
+"thumnail": "sin imagen",
+"precio": 80,
+"code": 13,
+"stock": 15
+
+},
+{
+    "title": "lampara",
+"description": "de pie",
+"thumnail":  "sin imagen",
+"precio":50,
+"code": 60,
+"stock": 50
+}
+]

@@ -1,6 +1,8 @@
 import fs from 'fs'
 
-class ProductManager {
+
+
+export default class ProductManager {
     constructor() {
         this.products = [];
         this.path = "./products.json";
@@ -129,7 +131,7 @@ class Product {
 
 const manager = new ProductManager('./db.json')
 
-
+/*
 const productos = async () => {
 
     await manager.addProducts("mesa", "mesa rectangular", 100, "sin imagen", 15, 50 );
@@ -154,5 +156,5 @@ const productos = async () => {
     },)
     
 }
-
-productos()
+Product()
+*/
