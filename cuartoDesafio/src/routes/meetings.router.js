@@ -32,12 +32,12 @@ router.post('/', async(req, res)=>{
     res.status(201).send({status:"succes", payload:result})
 })
 
-
+/*
 router.delete('/:mid',async(req, res)=>{
-   
+    const{mid}=req.params
     const meetings = await meetingsService.getMeetings()
     req.io.emit('meetings', meetings)
 })
-
+*/
 
 export default router
